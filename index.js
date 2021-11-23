@@ -58,7 +58,7 @@ app.get('/', (req, res) => {
     console.log(`Example app listening at http://localhost:${port}`)
   })
 
-app.get('/getDialogs',async (req, res) => {
+app.get('/telebot/getDialogs',async (req, res) => {
     if(client!=null){
          await client.getDialogs({}).then(result => {
                
