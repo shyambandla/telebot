@@ -11,9 +11,9 @@ const {NewMessage}= require('telegram/events/')
 const { StringSession } = require('telegram/sessions')
 const fs = require('fs');
 const input = require('input') // npm i input
-const apiId = 19127306;
-const apiHash = 'ef55f577ddb4f3c0d975b32e9fc37722'
-const stringSession = new StringSession('1BQANOTEuMTA4LjU2LjE4NQG7YSIlNRbMy7StTRUyJdgIKQR2FWheKxdCQLVZaGwl30Cd7o7c/0BbbIk+fNDyoma+s/Q2z7KaXiSGovq6jT1EtEM9nVD4PHtkQJjdnLpL9ukf54wEGqoax0r3ld9fry97BmlLQHfzCQuWsyBlxx6YXhWEJtkWSaSjTV2nEd2ZSnbtPb8zznGVPM42xua1ZxRp0ZHKUJOf5LYcJXjtNuKJOwCior2HkSXXt0vRUH/qy3tpCNAfuZXx75xoLpgwUDd7semWEM0v+IXgQGDoyZaWWNepWMrblOYKyxZPmB3qlkMRXLqhuZ5oKY/TJHxnaUHqekGbgOQeBkMfY9WTaoqvag=='); // fill this later with the value from session.save()
+const apiId = ;
+const apiHash = ''
+const stringSession = new StringSession(''); // fill this later with the value from session.save()
 var mongoose=require("mongoose");
 const { exit } = require('process');
 mongoose.connect('mongodb://localhost/eric',{useNewUrlParser:true,useUnifiedTopology:true});
